@@ -1,20 +1,20 @@
-# Ubuntu 20.04 Developer Setup
+# Ubuntu 20.10 Developer Setup
 
+```
 ./setup.sh
-./setup-ui.sh 
+```
 
-Installs the following into the ~/bin folder
+Installs cli tools to the ~/bin folder
 
-- yq v4.6.1
-- kubectl v1.20.0
 - rust latest
 - nvm v0.37.2
 - gvm latest
 - dotnet 3.1, 5.0
 - deno latest
 - java 14
-- vscode latest stable
 - docker latest stable
+- yq v4.6.1
+- kubectl v1.20.0
 - terraform 0.14.7
 - helm v3.5.2
 - k9s v0.24.2
@@ -22,9 +22,39 @@ Installs the following into the ~/bin folder
 - cf 7.2.0
 - fly 7.0.0
 - git-duet 0.7.0
-- Cascadia Code PL Font 2102.03
+
+```
+./setup-ui.sh
+```
+
+- Cascadia Code PL Font 2102.25
+- vscode latest stable
 - VS Code Extensions
-  - go 
+  - ms-vscode-remote.vscode-remote-extensionpack
+  - pkief.material-icon-theme
+  - ms-dotnettools.csharp
+  - denoland.vscode-deno
+  - ms-python.vscode-pylance
+  - rust-lang.rust
+  - redhat.vscode-yaml
+  - ms-python.python
+  - vadimcn.vscode-lldb
+  - ms-dotnettools.csharp
+  - hashicorp.terraform
+  - dtsvet.vscode-wasm
+  - visualstudioexptteam.vscodeintellicode
+  - svelte.svelte-vscode
+  - yzhang.markdown-all-in-one
+  - ms-azuretools.vscode-docker
 - go tools
-  - 
+  - `github.com/uudashr/gopkgs/v2/cmd/gopkgs@latest`
+  - `github.com/ramya-rao-a/go-outline@latest`
+  - `github.com/cweill/gotests@latest`
+  - `github.com/fatih/gomodifytags@latest`
+  - `github.com/josharian/impl@latest`
+  - `github.com/haya14busa/goplay/cmd/goplay@latest`
+  - `github.com/go-delve/delve/cmd/dlv@latest`
+  - `golang.org/x/lint/golint@latest`
+  - `golang.org/x/tools/gopls@latest`
+  - `github.com/golangci/golangci-lint/cmd/golangci-lint`
 
