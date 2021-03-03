@@ -86,3 +86,12 @@ chmod +x ./stoplight-studio-linux-x86_64.AppImage
 mv ./stoplight-studio-linux-x86_64.AppImage ~/bin/stoplight.AppImage
 
 echo "------------------------------------------------------------------------------------------------------------------------------------------"
+
+# k8s lens - https://k8slens.dev/
+
+curl -LO https://github.com/lensapp/lens/releases/download/v4.1.3/Lens-4.1.3.x86_64.AppImage
+chmod +x ./Lens-4.1.3.x86_64.AppImage
+mv Lens-4.1.3.x86_64.AppImage ~/bin/lens.AppImage
+
+echo "------------------------------------------------------------------------------------------------------------------------------------------"
+

@@ -57,7 +57,7 @@ Installs cli tools to the ~/bin folder
   - `golang.org/x/lint/golint@latest`
   - `golang.org/x/tools/gopls@latest`
   - `github.com/golangci/golangci-lint/cmd/golangci-lint`
-- Stoplight Studio
-- K8s Lens
-- draw.io
+- Stoplight Studio - latest
+- K8s Lens 4.1.3
+- draw.io 14.4.3
 
