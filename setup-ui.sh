@@ -62,9 +62,27 @@ echo "--------------------------------------------------------------------------
 
 curl -LO https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
 
-sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo dpkg -i ./google-chrome-stable_current_amd64.deb
 
-sudo rm google-chrome-stable_current_amd64.deb
+sudo rm ./google-chrome-stable_current_amd64.deb
 
 echo "------------------------------------------------------------------------------------------------------------------------------------------"
 
+# draw.io https://github.com/jgraph/drawio-desktop/releases/tag/v14.4.3
+
+curl -LO https://github.com/jgraph/drawio-desktop/releases/download/v14.4.3/draw.io-x86_64-14.4.3.AppImage
+
+chmod +x ./draw.io-x86_64-14.4.3.AppImage
+mv draw.io-x86_64-14.4.3.AppImage ~/bin/drawio.AppImage
+
+echo "------------------------------------------------------------------------------------------------------------------------------------------"
+
+# stoplight - https://github.com/stoplightio/studio/releases
+
+curl -LO https://github.com/stoplightio/studio/releases/latest/download/stoplight-studio-linux-x86_64.AppImage
+
+chmod +x ./stoplight-studio-linux-x86_64.AppImage
+
+mv ./stoplight-studio-linux-x86_64.AppImage ~/bin/stoplight.AppImage
+
+echo "------------------------------------------------------------------------------------------------------------------------------------------"
