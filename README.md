@@ -13,6 +13,7 @@ Installs cli tools to the ~/bin folder
 - deno latest
 - java 14
 - docker latest stable
+- docker-compose
 - yq v4.6.1
 - kubectl v1.20.0
 - terraform 0.14.7
