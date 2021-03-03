@@ -66,7 +66,7 @@ then
     source ~/.bashrc
     #add to ~/.bashrc only once
     deno1="export DENO_INSTALL=\"$HOME/.deno\""
-    deno2="export PATH=\"$DENO_INSTALL/bin:$PATH\""
+    deno2="export PATH=\"$HOME/bin:$PATH\""
     sourceFile="$HOME/.bashrc"
     grep -qF "$deno1" "$sourceFile"  || echo "$deno1" | tee -a "$sourceFile"
     grep -qF "$deno2" "$sourceFile"  || echo "$deno2" | tee -a "$sourceFile"
