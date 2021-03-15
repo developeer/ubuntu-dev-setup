@@ -196,3 +196,11 @@ chmod +x ~/bin/docker-compose
 docker-compose --version
 echo "------------------------------------------------------------------------------------------------------------------------------------------"
 
+#kind
+curl -L "https://github.com/kubernetes-sigs/kind/releases/download/v0.10.0/kind-linux-amd64" -o ~/bin/kind
+chmod +x ~/bin/kind
+kind --version
+echo "------------------------------------------------------------------------------------------------------------------------------------------"
+
+
+
